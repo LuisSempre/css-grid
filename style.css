@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.container{
+    background: #000000;
+    width: 100vh;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-gap: 5px;
+
+    justify-items: center;
+    align-items: center;
+}
+.container > div{
+    background: purple;
+    width: 50%;
+    height: 50%;
+}
+/* .center{
+    justify-self: center;
+    align-self: center;
+} */
+/* .container{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "h h" "m a" "f f";
+
+    /*grid-gap: 20px;
+    grid-column-gap: 50px;
+}*/
+/* header{
+    background: purple;
+    grid-area: h;
+} */
+/* main{
+    background: green;
+    grid-area: m;
+
+
+} */
+/* aside{
+    background: blue;
+    grid-area: a;
+
+} */
+/* footer{
+    background: white;
+    grid-area: f;
+
+} */ 
